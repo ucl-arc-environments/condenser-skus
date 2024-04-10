@@ -1,4 +1,7 @@
-# List your outputs here.
-output "random_val" {
-  value = local.my_output
+output "skus" {
+  value = local.yaml.data.skus.compute
+}
+
+output "families" {
+  value = local.yaml.data.families
 }
