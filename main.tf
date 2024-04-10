@@ -1,3 +1,3 @@
 locals {
-  yaml = yamldecode(file("skus-config-map.yaml"))
+  yaml = yamldecode(file("skus-config-map.yml"))
 }
