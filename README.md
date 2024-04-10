@@ -18,9 +18,7 @@ and static web page documentation, hosted at X.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_random"></a> [random](#provider\_random) | ~> 3.4.3 |
+No providers.
 
 ## Modules
 
@@ -28,21 +26,18 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [random_id.this](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/id) | resource |
+No resources.
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_prefix"></a> [prefix](#input\_prefix) | A dummy prefix. | `string` | `"my-test"` | no |
+No inputs.
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_random_val"></a> [random\_val](#output\_random\_val) | List your outputs here. |
+| <a name="output_families"></a> [families](#output\_families) | n/a |
+| <a name="output_skus"></a> [skus](#output\_skus) | n/a |
 
 ---
 <!-- END_TF_DOCS -->
