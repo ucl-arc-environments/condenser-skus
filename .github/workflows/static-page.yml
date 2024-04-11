@@ -37,7 +37,7 @@ jobs:
           mkdir site
           cp -r web/assets site
           bash web/scripts/yaml2html.sh \
-            skus-config-map.yaml \
+            skus-config-map.yml \
             web/templates/index.tmpl.html \
             site/index.html
       - name: Setup Pages
