@@ -1,0 +1,46 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: skus-configmap
+data:
+  families:
+    - name: t2i
+      manufacturer: Intel
+      code_name: Ice Lake
+  skus:
+    compute:
+      - name: t2i.nano
+        vcpu: 1
+        ram_gb: 0.5
+        os_disk_gb: 10
+        has_gpu: none
+      - name: t2i.micro
+        vcpu: 1
+        ram_gb: 1
+        os_disk_gb: 10
+        has_gpu: none
+      - name: t2i.small
+        vcpu: 1
+        ram_gb: 2
+        os_disk_gb: 30
+        has_gpu: none
+      - name: t2i.medium
+        vcpu: 2
+        ram_gb: 4
+        os_disk_gb: 30
+        has_gpu: none
+      - name: t2i.large
+        vcpu: 2
+        ram_gb: 8
+        os_disk_gb: 50
+        has_gpu: none
+      - name: t2i.xlarge
+        vcpu: 4
+        ram_gb: 16
+        os_disk_gb: 50
+        has_gpu: none
+      - name: t2i.2xlarge
+        vcpu: 8
+        ram_gb: 32
+        os_disk_gb: 50
+        has_gpu: none

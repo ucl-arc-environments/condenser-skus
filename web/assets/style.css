@@ -1,0 +1,173 @@
+html, body
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a.download
+{
+  text-decoration: none;
+}
+
+a.download img
+{
+  height: 1em;
+}
+
+#header {
+  background-color: #000;
+  border-bottom: 20px solid rgb(143, 153, 62);
+  padding: 10px 0 0 60px;
+}
+
+#header header h1
+{
+  background-color: rgb(143, 153, 62);
+  background-image: url('../assets/ucl-logo.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  height: 121px;
+  margin: 0;
+  max-width: 1410px;
+  text-transform: uppercase;
+}
+
+#masthead {
+  background-color: #3c3c3c;
+  border-bottom: .8rem solid #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+
+#masthead ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#masthead ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#masthead button {
+  margin-left: 5px ;
+  padding: 5px 14px;
+}
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.wrap
+{
+  padding: 20px 60px;
+}
+
+.button {
+  background-color: #4b4b4b; /* Green */
+  border: 1px;
+  color: white;
+  margin-left: 5px ;
+  padding: 5px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2b2e2d; /* Green */
+  color: white;
+}
+
+.divider {
+  border-top: 1px solid #bbb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.code {
+  font-family: 'Courier New';
+}
+
+table {
+  display: table;
+  table-layout: auto;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  border-collapse: collapse;
+  clear: left;
+  border-spacing: 0;
+  font-size: 0.8em; }
+
+thead, tbody, tfoot {
+  display: table-row-group; }
+
+thead {
+  display: table-header-group; }
+
+tbody {
+  display: table-row-group; }
+
+tfoot {
+  display: table-footer-group; }
+
+tr {
+  display: table-row; }
+
+th, td {
+  display: table-cell;
+  text-align: left;
+  width: auto;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: none;
+  vertical-align: middle;
+  padding: 0.25em 1em 0.25em 0; }
+
+th {
+  border-right: 1px solid #e6e6e6;
+  border-bottom-color: #e6e6e6;
+  color: #333333;
+  font-weight: 700;
+  background-color: #eee; }
+
+th, td, caption {
+  padding: 4px 10px 4px 5px; }
+
+tr.even td {
+  background: #e5ecf9; }
+
+tfoot {
+  font-style: italic; }
+
+caption {
+  caption-side: bottom;
+  color: #666666;
+  font-size: 0.875em;
+  line-height: 1.4286;
+  padding: 0.8571em 0 0.2857em;
+  text-align: left; }
+
+td, td img {
+  vertical-align: top; }

@@ -1,18 +1,13 @@
-# terraform-template
+# condenser-skus
 
-## ARC Terraform template
+## Condenser SKUs
 
-⚠️ This repository is still under construction! ⚠️
-
-A Terraform template for new ARC Terraform projects or modules. It has a
-suggested skeleton structure and GitHub Actions workflows.
+A config. map of Stock Keeping Numbers (SKUs) for objects on the Condenser
+platform. This config. map is used to generate a data-only Terraform module
+and static web page documentation, hosted at
+[https://skus.condenser.arc.ucl.ac.uk](https://skus.condenser.arc.ucl.ac.uk).
 
 ## Usage
-
-1. Fork this repo. If creating a self-contained module, name your repo
-   according to the [module naming convention](https://developer.hashicorp.com/terraform/registry/modules/publish)
-   of `terraform-<PROVIDER>-<NAME>`.
-2. Change [CODEOWNERS](.github/CODEOWNERS) to you / your Team.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -24,9 +19,7 @@ suggested skeleton structure and GitHub Actions workflows.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_random"></a> [random](#provider\_random) | ~> 3.4.3 |
+No providers.
 
 ## Modules
 
@@ -34,21 +27,18 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [random_id.this](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/id) | resource |
+No resources.
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_prefix"></a> [prefix](#input\_prefix) | A dummy prefix. | `string` | `"my-test"` | no |
+No inputs.
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_random_val"></a> [random\_val](#output\_random\_val) | List your outputs here. |
+| <a name="output_families"></a> [families](#output\_families) | n/a |
+| <a name="output_skus"></a> [skus](#output\_skus) | n/a |
 
 ---
 <!-- END_TF_DOCS -->
