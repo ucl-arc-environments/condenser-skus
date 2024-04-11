@@ -24,7 +24,7 @@ do
   echo "  <td>$RAM</td>" >> table.tmp.html
   echo "  <td>$OS_DISK</td>" >> table.tmp.html
   echo "  <td>$GPU</td>" >> table.tmp.html
-  echo "<tr>" >> table.tmp.html
+  echo "</tr>" >> table.tmp.html
 done
 
 echo "</tbody>" >> table.tmp.html
