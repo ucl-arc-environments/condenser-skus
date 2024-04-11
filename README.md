@@ -4,7 +4,8 @@
 
 A config. map of Stock Keeping Numbers (SKUs) for objects on the Condenser
 platform. This config. map is used to generate a data-only Terraform module
-and static web page documentation, hosted at https://skus.condenser.arc.ucl.ac.uk.
+and static web page documentation, hosted at
+[https://skus.condenser.arc.ucl.ac.uk](https://skus.condenser.arc.ucl.ac.uk).
 
 ## Usage
 
